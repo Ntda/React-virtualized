@@ -41,7 +41,8 @@ function App() {
           overscanRowCount={0}
           rowCount={dataSource.length}
           rowHeight={cache.rowHeight}
-          rowRenderer={rowRenderer} />
+          rowRenderer={rowRenderer}
+          scrollToIndex={dataSource.length-1} />
       )}
     </AutoSizer>
   );
